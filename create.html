@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ALT 게시판</title>
+    <title>글 작성하기</title>
     <link rel="stylesheet" href="./index.css">
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
@@ -17,17 +17,23 @@
         </div>
         
     </header>
-    <main id="index_main">
-        <div id="list">
-            <ul id="all_list">
-                
-            </ul>
+    <main id="create_main">
+        <div id="create_div">
+            <form id="create_form">
+                <div class="div">
+                    <input type="text" id="title" placeholder="제목을 입력하세요">
+                </div>
+                <div class="div">
+                    <textarea name="content" id="create_content" placeholder="내용을 입력하세요"></textarea>
+                    <div class="button"><button type="button" id="back">취소하기</button></div>
+                    <div class="button"><button id="delete">글 등록하기</button></div>
+                </div>
+            </form>
         </div>
-        <a href="create.html" id="write">글 쓰기</a>
     </main>
     <footer>
         
     </footer>
-    <script src="./index.js"></script>
+    <script src="./create.js"></script>
 </body>
 </html>

@@ -1,0 +1,86 @@
+#signup_title{
+    margin-top: 70px;
+    width: 120px;
+    height: 30px;
+    justify-self: center;
+}
+
+#signup_div {
+    width: 400px;
+    height: 500px;
+    border: 1px solid red;
+    border-radius: 30px;
+    justify-self: center;
+    box-shadow: 1px 2px 4px black;
+}
+
+form {
+    margin: 40px;
+    margin-top: 60px;
+}
+
+form input{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+form input:focus {
+    outline: none;
+    border-bottom: solid 1px red;
+    transition: border-color 0.5s ease;
+}
+
+form legend{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: underline rgb(255, 0, 0, 0.8);
+}
+button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#submit {
+    background-color: rgb(255, 0, 0, 0.8);
+}
+
+#error_message {
+    color: red;
+    display: none;
+}
+
+/*mypage*/
+#mypage_form{
+    width: 320px;
+    height: 280px;
+}
+
+#mp_submit{
+    margin-top: 40px;
+    background-color: rgb(255, 0, 0, 0.8);
+    margin-left: 165px;
+    width: 180px;
+}
+#goback{
+    margin-left: 10px;
+}
+.mp_btn {
+    width: 180px;
+    margin: 5px;
+    margin-top: 50px;
+}
