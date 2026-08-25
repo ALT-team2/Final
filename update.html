@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>글 수정하기</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./icons/ALT.png" alt="ALT"></a>
+        <h1>자유게시판</h1>
+        <div id="log_myp">
+            <a href="login.html" id="login_btn">회원가입 / 로그인</a>
+            <a href="./mypage.html" id="profile"><i class="fi fi-rr-user"></i></a>
+        </div>
+        
+    </header>
+    <main id="update_main">
+        <div id="update_div">
+            <form id="update_form">
+                <div class="div">
+                    <input type="text" id="update_title" placeholder="제목을 입력하세요">
+                </div>
+                <div class="div">
+                    <textarea name="content" id="update_content" placeholder="내용을 입력하세요"></textarea>
+                </div>
+                <div id="btn_div">
+                    <div class="ud_button"><button type="button" id="back">취소하기</button></div>
+                    <div class="ud_button"><button id="update">글 수정하기</button></div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="./update.js"></script>
+</body>
+</html>

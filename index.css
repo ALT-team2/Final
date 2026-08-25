@@ -1,0 +1,198 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 9999;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background: rgba(255, 255, 255, 0.99);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#login_btn{
+    display: inline-block;
+    text-align: center;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#log_myp{
+    margin-right: 50px;
+    width: 250px;
+    display: flex;
+}
+
+#profile i{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+#login_btn {
+    margin-right: 10px;
+}
+
+#profile {
+    width: 38px;
+    height: 38px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    margin-top: 110px;
+    display: flex;
+}
+
+/*--------------------------index---------------------------------*/
+
+#index_main {
+    flex-direction: column; 
+    position: relative;
+}
+
+#list {
+    margin-left: 20px;
+    width: 1200px;
+    height: 650px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+
+#write {
+    position: absolute;
+    left: 1240px;
+    top: 600px;
+    text-align: center;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#all_list {
+    overflow-y: auto;  
+    list-style: none;
+}
+/*--------------------------details-------------------------------*/
+
+#detail_main{
+    justify-content: center;
+}
+
+#detail{
+    width: 800px;
+    height: 750px;
+    border: 1px solid black;
+    
+}
+
+#head {
+    border: 1px solid black;
+    justify-self: left;
+    margin: 10px;
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#content {
+    border: 1px solid black;
+    margin: 10px;
+    width: 700px;
+    height: 550px;
+    border-radius: 5px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/*--------------------------create-------------------------------*/
+
+#create_main{
+    justify-content: center;
+}
+
+#create_div {
+    border: 1px solid black;
+    width: 650px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+#title {
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+}
+
+textarea {
+    width: 500px; 
+    height: 550px;
+    resize: none;
+    overflow: scroll;
+}
+
+.div {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.button {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+}
+/*-----------------------update-------------------------*/
+#update_main{
+    justify-content: center;
+}
+
+#update_div {
+    border: 1px solid black;
+    width: 650px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+#update_title {
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+}
+
+#btn_div{
+    margin-left: 330px;
+}
+
+.ud_button {
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+}
