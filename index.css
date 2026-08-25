@@ -7,6 +7,10 @@ header {
     left: 0;
     width: 100%;
     height: 80px;
+<<<<<<< HEAD
+=======
+    background-color: white;
+>>>>>>> other/feature/signup-login
     z-index: 9999;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     background: rgba(255, 255, 255, 0.99);
@@ -16,6 +20,7 @@ img {
     width: 80px;
     height: 80px;
 }
+<<<<<<< HEAD
 
 a {
     text-decoration: none;
@@ -27,11 +32,23 @@ a {
     width: 170px;
     height: 40px;
     line-height: 40px;
+=======
+a {
+    text-decoration: none;
+}
+#login_btn{
+    margin-right: 50px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+>>>>>>> other/feature/signup-login
     color: black;
     border: 1px solid black;
     border-radius: 30px;
 }
 
+<<<<<<< HEAD
 #log_myp{
     margin-right: 50px;
     width: 250px;
@@ -74,11 +91,27 @@ main {
     margin-left: 20px;
     width: 1200px;
     height: 650px;
+=======
+/*--------------------------------------------------------------*/
+main {
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+    position: relative;
+}
+
+#notice_board {
+    margin-left: 20px;
+    width: 1450px;
+    height: 600px;
+>>>>>>> other/feature/signup-login
     border: solid 1px black;
     border-radius: 20px;
 }
 
 #write {
+<<<<<<< HEAD
     position: absolute;
     left: 1240px;
     top: 600px;
@@ -195,4 +228,18 @@ textarea {
     width: 100px;
     height: 30px;
     display: inline-block;
+=======
+    justify-items: end;
+    margin-right: 50px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: block;
+    margin-top: auto;
+    align-self: flex-start;
+>>>>>>> other/feature/signup-login
 }

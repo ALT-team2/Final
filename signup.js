@@ -1,9 +1,17 @@
 const email = document.getElementById('email');
+<<<<<<< HEAD
 const password = document.getElementById('password');
 const password_check = document.getElementById('password_check');
 const error_message = document.getElementById('error_message');
 const signup_form = document.getElementById('signup');
 const cancel = document.getElementById('cancel');
+=======
+const password = document.getElementById('password')
+const password_check = document.getElementById('password_check')
+const error_message = document.getElementById('error_message')
+const signup_form = document.getElementById('signup')
+const cancel = document.getElementById('cancel')
+>>>>>>> other/feature/signup-login
 
 signup_form.addEventListener('submit',async (e) => {
     e.preventDefault();
@@ -36,6 +44,7 @@ signup_form.addEventListener('submit',async (e) => {
         } else if (response.status === 400) {
             alert('입력한 정보가 형식에 맞지 않습니다.');
         } else if (response.status === 409) {
+<<<<<<< HEAD
             alert('이미 가입된 이메일입니다.');
         } else {
             alert('회원가입 실패');
@@ -43,6 +52,16 @@ signup_form.addEventListener('submit',async (e) => {
     
 }catch (error) {
         alert('에러가 발생하였습니다.');
+=======
+            alert('이미 가입된 이메일입니다.')
+        } else {
+            alert('회원가입 실패')
+        }
+    
+}catch (error) {
+        console.error('오류 발생')
+        alert('에러가 발생하였습니다.')
+>>>>>>> other/feature/signup-login
     }
 });
 

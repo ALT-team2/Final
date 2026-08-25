@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 const error_message = document.getElementById('error_message');
+=======
+const email = document.getElementById('email')
+const password = document.getElementById('password')
+const error_message = document.getElementById('error_message')
+>>>>>>> other/feature/signup-login
 const login_form = document.getElementById('signup');
 const login_cancel = document.getElementById('cancel');
 
@@ -36,7 +42,11 @@ login_form.addEventListener('submit', async (e) => {
             });
             if (meresponse.ok) {
                 const me = await meresponse.json();
+<<<<<<< HEAD
                 localStorage.setItem('myEmail', me.email);
+=======
+                localStorage.setItem('myId', me.id);
+>>>>>>> other/feature/signup-login
             }
             login_form.reset();
             location.href = '../login.html'
@@ -49,6 +59,10 @@ login_form.addEventListener('submit', async (e) => {
             alert('로그인 실패')
         }
     } catch (error) {
+<<<<<<< HEAD
+=======
+        console.error('오류 발생')
+>>>>>>> other/feature/signup-login
         alert('에러가 발생하였습니다.')
     }
 })

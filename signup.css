@@ -5,7 +5,11 @@
     justify-self: center;
 }
 
+<<<<<<< HEAD
 #signup_div {
+=======
+#signup_form {
+>>>>>>> other/feature/signup-login
     width: 400px;
     height: 500px;
     border: 1px solid red;
@@ -62,6 +66,7 @@ button {
 #error_message {
     color: red;
     display: none;
+<<<<<<< HEAD
 }
 
 /*mypage*/
@@ -84,3 +89,6 @@ button {
     margin: 5px;
     margin-top: 50px;
 }
+=======
+}
+>>>>>>> other/feature/signup-login
